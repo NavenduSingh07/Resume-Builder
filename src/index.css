@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cursor{
+  cursor: pointer;
+
+}
+/* -----------------home */
+
+.home-h1 {
+  font-size: 50px !important;
+  font-weight: 500;
+  color: '#2d2d2d'
+}
+
+.btn-main {
+  background-color: #2590e8;
+  color: white !important;
+
+}
+
+.btn-home{
+  padding: 10px 5px;
+  font-size: 18px;
+  width: 50% !important;
+}
+
+.home {
+  height: 80vh;
+}
+
+.btn-main:active,
+.btn-main:hover {
+  background-color: #217bc4 !important;
+  box-shadow: 0 0 0.5rem #2590e8 !important;
+}
+
+/* -------------------------forms */
+.container-form{
+  box-shadow: 0 0 0.25rem #bbd3e8 !important;
+  border: #dee2e6 2px solid !important;
+}
+.input-container {
+  position: relative;
+  /* Set the width of the input container */
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  /* Adjust the left position based on your design */
+  color: #2590e8;
+  /* Set the color of the icon */
+}
+
+.input-container input, .tagify {
+  /* padding-left: 30px; */
+  /* Adjust the left padding based on the icon width and position */
+  box-sizing: border-box;
+}
+/* to go back */
+.btn-main-disable{
+background-color:#878787 !important;
+color: white !important;
+}
+
+.btn-main-disable:active,
+.btn-main-disable:hover {
+  background-color: #515050 !important;
+  box-shadow: 0 0 0.5rem #878787 !important;
+  /* box-shadow: 0 0 0.5rem #2590e8; */
+
+}
+
+/* to add */
+.btn-add {
+  background-color: #e87d25;
+  color: white !important;
+}
+.btn-add:active,
+.btn-add:hover {
+  background-color: #d16309 !important;
+  box-shadow: 0 0 0.5rem #e87d25 !important;
+}
+/* to remove */
+.btn-remove{
+  color: red;
+  cursor: pointer;
+}
+
+/* -----------------------skills */
+.tagify{
+  width: 100;
+}
+/* -------------------------media query */
+@media (max-width:1200px) {
+  .home-h1 {
+    font-size: 40px !important
+  }
+}
+
+@media (max-width:929px) {
+  .home {
+    height: auto;
+  }
+
+}
